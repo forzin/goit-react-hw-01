@@ -1,0 +1,58 @@
+.personProfile {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    padding-top: 20px;
+    border: 2px solid #000;
+    border-radius: 5%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.imgProfile {
+    width: 150px;
+    height: 150px;
+    background-color: dimgray;
+    border-radius: 50%;
+}
+
+.personName {
+    color: rgb(54, 54, 54);
+    font-size: 24px;
+    font-weight: 600;  
+}
+
+.personLocation,
+.personLink {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+
+.infoList {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid gray;
+    color: black;
+    background-color: rgb(206, 206, 206);
+}
+
+.infoItem {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    padding-top: 15px;
+}
+
+.infoItem:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.item {
+    font-weight: 600;
+    padding-bottom: 15px;
+}

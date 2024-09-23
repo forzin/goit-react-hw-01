@@ -1,0 +1,26 @@
+.table {
+    color: black;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.listTitle {
+    background-color: rgb(53, 53, 53);
+    
+}
+
+.tableTr:nth-child(even) {
+    background-color: rgb(202, 202, 202);
+}
+
+.tableTitle {
+    color: rgb(226, 226, 226);
+    border: 1px solid black;
+}
+
+.tableItem {
+    padding: 5px 20px;
+    border: 1px solid black;
+    
+}
